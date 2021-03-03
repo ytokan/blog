@@ -13,6 +13,6 @@ jobs:
       with:
         server-dir: www
         server: ${{ secrets.FTP_HOST }}
-        server: ${{ secrets.FTP_USER }}
+        username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
 
