@@ -1,0 +1,8 @@
+name: "GitHub Wrokflow Tuto 01"
+on: push
+
+jobs:
+  first_job:
+    name: mon premier job
+    runs-on: ubuntu-latest
+    run: echo "mon premier job"
