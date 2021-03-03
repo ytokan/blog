@@ -8,3 +8,12 @@ jobs:
     steps:
     - name: Print
       run: echo "mon premier job"
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: node -v
+      - run: ls
+      - run: pwd
+
